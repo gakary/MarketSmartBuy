@@ -1,0 +1,82 @@
+.goods{
+    width: 95%;
+    margin: 10px auto 0px auto;
+    text-align: center;
+    font-size: 22px;
+    border-collapse: collapse;
+}
+.name{
+    width: 20%;
+}
+.type{
+    width: 10%;
+}
+.price{
+    width: 10%;
+}
+.qty{
+    width: 10%;
+}
+.btn{
+    width: 20%;
+}
+.first{
+    background: rgb(36, 36, 36);
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 25px;
+    height: 50px;
+}
+.first th{
+    background-color: rgb(36, 36, 36);
+    border: none;
+}
+.content td{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+}
+.bgcolor{
+    background: rgb(231, 231, 231);
+}
+#btnEdit{
+    display: block;
+    float: right;
+    margin-right: 60px;
+    width: auto;
+    height: 100%;
+    background-color: rgba(0, 166, 243, 0.5);
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in;
+    cursor: pointer;
+}
+#btnEdit:hover{
+    background-color: rgba(0, 166, 243, 1);
+}
+
+.add{
+    display: block;
+    width: 92%;
+    background: rgba(114, 114, 114, 0.9);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 25px;
+    margin: 0px auto;
+    transition: 0.2s ease;
+    cursor: pointer;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.add:hover{
+    background: rgba(114, 114, 114, 1);
+    font-size: 35px;
+}

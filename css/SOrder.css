@@ -1,0 +1,105 @@
+.order{
+    width: 95%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 22px;
+    border-collapse: collapse;
+}
+.oID{
+    width: 10%;
+}
+.client{
+    width: 20%;
+}
+.product{
+    width: 20%;
+}
+.qty{
+    width: 5%;
+}
+.time{
+    width: 20%;
+}
+.status{
+    width: 5%;
+}
+.btn{
+    width: 20%;
+}
+.first{
+    background: rgb(36, 36, 36);
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 25px;
+    height: 50px;
+}
+.first th{
+    background-color: rgb(36, 36, 36);
+    border: none;
+}
+.content td{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+}
+.bgcolor{
+    background: rgb(231, 231, 231);
+}
+
+#btnAccept{
+    display: block;
+    float: right;
+    margin-right: 30px;
+    width: auto;
+    height: 100%;
+    background-color: rgba(0, 192, 0, 0.5);
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in
+}
+#btnAccept:hover{
+    background-color: rgba(0, 192, 0, 1);
+}
+
+#btnReject{
+    display: block;
+    float: right;
+    margin-right: 30px;
+    width: auto;
+    height: 100%;
+    background-color: rgba(192, 29, 0, 0.5);
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in
+}
+#btnReject:hover{
+    background-color: rgba(192, 29, 0, 1);
+}
+
+#btnDeliver{
+    display: block;
+    float: right;
+    margin-right: 30px;
+    width: auto;
+    height: 100%;
+    background-color: rgba(163, 192, 0, 0.5);
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in
+}
+#btnDeliver:hover{
+    background-color: rgba(163, 192, 0, 1);
+}

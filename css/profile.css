@@ -1,0 +1,66 @@
+form{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+}
+
+form p{
+	margin-top: 40px;
+	font-weight: bold;
+}
+
+form input,textarea{
+    display: inline-block;
+    width: 400px;
+    box-sizing:border-box;
+    outline:none;
+	border:1px solid #aaa;
+	border-radius:5px;
+	margin-top: 10px;
+	font-weight: lighter;
+    font-size: inherit;
+    transition: 0.5s ease-out;
+}
+
+form select{
+    display: block;
+    width: auto;
+    border:1px solid #aaa;
+    border-radius:5px;
+	margin-top: 10px;
+	font-weight: lighter;
+    font-size: inherit;
+    transition: 0.5s ease-out;
+}
+
+#buttons{
+    margin-top: 30px;
+}
+
+#edit{
+	width: 200px;
+	height: 40px;
+    display: inline-block;
+    text-transform:uppercase;
+    outline:none;
+    border:none;
+    font-size:20px;
+    font-weight:600;
+    cursor:pointer;
+    background:#2351b6;
+	color:#f5f5f5;
+}
+
+#submit{
+	width: 200px;
+	height: 40px;
+    display: inline-block;
+    text-transform:uppercase;
+    outline:none;
+    border:none;
+    font-size:20px;
+    font-weight:600;
+    cursor:pointer;
+    background:#23b62f;
+	color:#f5f5f5;
+}

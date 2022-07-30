@@ -1,0 +1,147 @@
+body{
+   
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    
+}
+
+.profile_card{
+	width: 600px;
+	height: 500px;
+	background: rgb(185, 184, 184);
+	padding: 50px 25px;
+	position: relative;
+	z-index: 1;
+}
+
+.profile_card{
+	color: #fff;
+	text-align: center;
+}
+
+.profile_card .profile_img img{
+	width: 80px;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+.profile_card .profile_img .name{
+	font-size: 24px;
+	font-weight: 500;
+	margin: 15px 0 5px;
+}
+
+
+.profile_card .profile_img .place{
+	font-size: 14px;
+	font-weight: 300;
+}
+.profile_card .place .icon{
+	margin-right: 10px;
+}
+
+.wrapper{
+	position: relative;
+	width: 600px;
+	margin: 150px auto 0;
+}
+
+.back_btn{
+    width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.back_btn{
+	left: 0;
+
+}
+.back_btn:hover{
+    background: rgb(224, 213, 192);
+}
+.back_btn.active{
+    background: rgb(226, 161, 40);;
+}
+
+.update_btn{
+    background: #ffffff;
+	padding: 10px;
+	border-radius: 25px;
+	width: 200px;
+	margin: 0 auto;
+	color: #8d731e;
+	cursor: pointer;
+}
+
+.update_btn:hover{
+    color: rgb(197, 197, 184);
+}
+
+.sign-up-form{
+    width:300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background:#fff;
+    padding:20px;
+    margin:8% auto 0 ;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.sign-up-form h1{
+    color:#1c8adb;
+    margin-bottom:30px;
+}
+
+.input-box{
+    border-radius:20px;
+    padding:10px;
+    margin:10px 0;
+    width:100%;
+    border:1px solid #999;
+    outline:none;
+}
+button{
+    color:#fff;
+    width:100%;
+    padding:10px;
+    border-radius:20px;
+    font-size:15px;
+    margin:10px 0;
+    border:none;
+    outline:none;
+    cursor:pointer;
+}
+
+.signup-btn{
+    background-color:#1c8adb;
+    font-family: 'Montserrat';
+}
+
+.gmail-btn{
+    background-color:#21afde;
+    font-family: 'Montserrat';
+}
+
+a{
+    text-decoration:none;
+}
+hr{
+    margin-top:20px;
+    width:80%;
+}
+
+.or{
+    background-color:#fff;
+    width:30px;
+    margin:-19px auto 10px;
+}
+
+
+

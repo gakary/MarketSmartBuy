@@ -1,0 +1,78 @@
+
+.leftside, .rightside {
+
+	height:50vh;
+	width:100%;
+	color:#fff;
+	font-size:40px;
+    background-image: url(../pictures/ChoiceBG.jpg);
+}
+
+
+
+@media screen and (min-width:768px)
+{
+
+	.leftside, .rightside {
+
+		height:100vh;
+	}
+
+
+}
+
+
+.leftside{
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.rightside{
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.reg_container{
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+.box{
+    width: 250px;
+    height: 300px;
+margin: 0px 10px;
+transition: 1s;
+color: white;
+text-align: center;
+font-family: 'Montserrat';
+font:bold;
+width: 100px;
+  height: 100px;
+  background-size:contain;
+  transition: width 3s, height 1s;
+  opacity:0.4;
+}
+
+.box:hover{
+    transform: scale(1.3);
+    z-index: 2;
+    box-shadow: 2px 2px 2px #000;
+    width: 300px;
+  height: 300px;
+    opacity:1.0;
+
+}
+.choice_font{
+    font:bold;
+    color: black;
+    font-family: 'Montserrat';
+}
+
+a {
+    text-decoration: none !important;
+}

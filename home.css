@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+body{
+    margin:0;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.parallax, .parallax2{
+    background-image:url('images/home1.jpg');
+    height:max-content;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+
+.page-title{
+    background:rgba(0,0,0,0.5);
+    text-align:center;
+    color:white;
+    padding:50px;
+    font-variant:small-caps;
+    font-size:100px;
+    font-family: fantasy;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing:20px;
+}
+
+.sticky{
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+.menu{
+    background:#184d47d3;
+    text-align:center;
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu-ul{
+    margin:0;
+    padding:0;
+    display:inline;
+}
+
+.menu-ul li{
+    font-size:17px;
+    list-style:none;
+    display:inline-block;
+    padding:25px 25px 26px 25px;
+}
+  
+.menu-ul li:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.menu-ul li:hover:after {
+    width: 100%;
+    background: rgb(118, 118, 199);
+}
+
+.a-menu, .a-links{
+    text-decoration:none;
+    color:white;
+    box-sizing: content-box;
+}
+
+.menu-ul li:hover{
+    background:#184d47;
+    transition: 0.2s ease;
+    transform:scale(1.1);
+    color: white;
+}
+
+.search-input{
+    width:250px;
+    border:none;
+    font-size:16px;
+    outline:none;
+    background:transparent;
+    margin:15px 0 0 10px;
+}
+
+i{
+    font-size:20px;
+    margin:0 10px 0 10px;
+}
+
+.search-box button{
+    background:transparent;
+    border:none;
+    outline:none;
+}
+
+.container, .deals-container{
+    margin:50px 50px 50px 5%;
+    width:90%;
+    text-align: center;
+}
+
+.categories, .items{
+    width:max-content;
+    margin:25px;
+    border:1px solid #184d47;
+    border-radius:0 0 50px 50px;
+    display:inline-block;
+}
+
+.categories:hoveer, .items:hover{
+    box-shadow:0 0 10px 3px #184d47;
+}
+.item-image{
+    height:200px;
+    width:200px;
+    border-radius:0 0 50px 50px;
+    padding:10px;
+}
+
+.image-title{
+    text-align: center;
+    padding:10px;
+    font-weight:bold;
+}
+
+.meanu a{
+    text-decoration:none;
+}
+
+
+.hp_title{
+    padding:50px;
+    font-size:50px;
+    font-weight:bold;
+    letter-spacing:10px;
+    color:white;
+    background:rgba(0,0,0,0.5);
+}
+
+.deal{
+    padding:50px;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    display:inline-block;
+    margin:20px;
+    max-width:20%;
+    background:linear-gradient(120deg,#16817a 20%,#cee397 50%,#16817a 80%);
+}
+
+.coupon-btn{
+    border:1px solid white;
+    color:rgba(8, 8, 8, 0.8);
+    margin:10px;
+    padding:10px;
+    border-radius:20px;
+}
+.coupon-btn:hover{
+    box-shadow:0 0 10px 5px rgb(211, 211, 211) inset;
+}
+
+.images{
+    display:inline-block;
+}
+
+.item-image-size{
+    height:200px;
+    width:300px;
+    padding:5px;
+}
+
+.description{
+    margin:20px;
+    min-height:100px;
+}
+
+.item-select{
+    margin:10px 0 0 0;
+}
+
+.buynow-btn{
+    border:1px solid #184d47;
+    background:#184d47;
+    padding:5px 15px;
+    border: radius 20px;
+    font-weight:bold;
+    margin-top:10px;
+    color:white;
+}
+
+.buynow-btn:hover{
+    border:1px solid #5b8c5a;
+    box-shadow:0 0 10px 5px #5b8c5a inset;
+}
+
+.parallax2{
+    background-image:url('images/home3.jpg');
+}
+
+.footer{
+    background:rgba(0,0,0,0.5);
+    text-align: center;
+    padding:20px;
+}
+
+.quick-links{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    display:inline-block;
+    min-width:30%;
+}
+
+.quick-links ul{
+    padding:0;
+}
+
+.quick-links li{
+    list-style:none;
+    padding:10px;
+    font-weight:300;
+}
+
+.a-links:hover{
+color:#fd5e53
+
+}
+
+.copyrights{
+    font-size:16px;
+    font-family:verdana, arial, helvecita, sans-serif;
+    text-align: center;
+    margin:15px;
+}
+

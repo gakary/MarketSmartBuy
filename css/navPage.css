@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+body{
+    background: linear-gradient(rgba(204, 204, 204, 0.5),rgba(199, 199, 199, 0.5)),url('../img/freshFood.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 1900px;
+}
+
+#TypeOfGoods{
+    width:80%;
+    height: auto;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    height: auto;
+    width: 450px;
+    font-family: 'Kanit', sans-serif;
+    margin: 20px auto;
+    text-align: left;
+    opacity: 0.8;
+    border: none;
+    transition: .5s ease all;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .card:hover {
+      opacity: 1;
+      width: 460px;
+  }
+
+  .card:hover .Title{
+    color: rgb(14, 14, 14);
+}
+
+  #image{
+    width: 100%;
+    height: auto;
+  }
+
+.Title{
+  font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(56, 56, 56);
+    background: none;
+    transition: .5s;
+}
+
+#Logo{
+  height: 100px;
+  width: 100px;
+  margin-right: 50px;
+}
+
+img{
+  height: 50px;
+  width: 50px;
+}
+
+#PageNav div{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#PageNav a{
+  color: rgba(14, 14, 14, 0.8);
+  transition: .5s;
+}
+
+#PageNav a:hover{
+  color: rgba(14, 14, 14, 1);
+  font-size: 35px;
+}
+
+.dd-item{
+  background-color: #f1f1f1;
+}
+
+
+.dropdown-menu {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: .5s ease all;
+  background-color: #747474;
+}
+.dropdown-menu.show {
+  display: block;
+  visibility: visible;
+  opacity:1;
+  transform: translateY(0px);
+  transition:.5s ease all;
+}
+
+
+li {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+  margin-right: 10px;
+}
+li:last-child {
+  margin-right: 0;
+}
+
+li:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+li:hover:after {
+  width: 100%;
+  background: rgb(118, 118, 199);
+}

@@ -1,0 +1,85 @@
+.order{
+    width: 95%;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 22px;
+    border-collapse: collapse;
+}
+
+.header{
+    background: rgb(231, 231, 231);
+    font-size: 30px;
+} 
+
+.oID{
+    width: 25%;
+}
+
+.item{
+    width: 25%;
+}
+
+.o_price{
+    width: 25%;
+}
+
+.time{
+    width: 25%;
+}
+
+.client{
+    width: 20%;
+}
+
+.product{
+    width: 20%;
+}
+
+.qty{
+    width: 5%;
+}
+
+.status{
+    width: 5%;
+    text-align: center;
+}
+
+.first{
+    background: rgb(36, 36, 36);
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 25px;
+    height: 50px; 
+}
+
+.first th{
+    background-color: rgb(36, 36, 36);
+    border: none;
+}
+
+.content td{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+}
+
+.bgcolor{
+    background: rgb(231, 231, 231);
+}
+
+#btnConfirm{
+    display: inline-block;
+    height: 100%;
+    background-color: rgba(163, 192, 0, 0.5);
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in;
+}
+#btnConfirm:hover{
+    background-color: rgba(163, 192, 0, 1);
+}
