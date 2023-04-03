@@ -4,4 +4,5 @@ The project was developed based on the concept of a smart district and is design
 We are now under the epidemic, so we will eat outside as little as possible. Instead, more people will go out to buy food and cook at home. In the market, the general public is more inclined to use contactless payment methods for consumption, and merchants also operate by using online payment methods to enhance market competitiveness and attract customers. Therefore, we want to provide the market with some suitable solutions (such as online payment and delivery functions) to develop in the new business environment after the epidemic.
 The most residents may have the experience of spending a lot of time buying food and not being able to buy the food they want to buy. In our opinion, we need to use the Internet to create a platform that allows residents to receive recommendations of products and stores. So that they can buy the most expected product at a relatively low price and benefit from online payment and delivery. It will save much time and money, which fits our idea of creating a smart district.
 
-![Uploading market.PNG…]()
+
+![market](https://user-images.githubusercontent.com/66684175/229617478-0fa3693e-9c63-4871-889c-a801349ff87d.PNG)
